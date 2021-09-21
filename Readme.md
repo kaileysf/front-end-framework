@@ -1,6 +1,9 @@
 # Basic Framework For Front End Vanilla.js Projects
 
 ## Preflight Check
+1. Make sure you are in the project file
+1. pwd current working directory
+1. One you are sure you are in the right location, run npm install from framework folder.
 1. Run npm install from the framework root folder. This will create the node_modules and install the dependancies found in the package.json file.
 ```bash
   npm install
@@ -54,3 +57,21 @@ Looking for a File That Says
 ```
 
 Then re-init your repository
+
+# Deploying to Netlify
+1. Account at netlify and log in
+1. Click on team name sleect sites tab
+1. Site -> click on the deploy from git
+1. Show your repo's
+1. Select the repo to build
+1. Make sure to write the correct build command
+```
+parcel build src/index.html
+```
+1. Netlify will deploy the repo
+
+# VS Code
+1. Make changes
+1. Commit the changes
+1. Push the changes to remote repo
+1. Netlify sees changes and builds a new site
