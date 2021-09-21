@@ -1,0 +1,12 @@
+# node_modules
+/node_modules
+
+# parcel bundler files
+.parcel-cache
+dist
+
+# OS files
+.DS_Store
+
+
+
